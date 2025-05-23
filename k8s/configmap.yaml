@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: budget-app-config
+  namespace: budget-app
+data:
+  RAILS_ENV: development
+
